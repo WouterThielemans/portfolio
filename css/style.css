@@ -683,6 +683,12 @@ h5.w3pvt-title {
     letter-spacing: 1px;
 	
 }
+
+.text a{
+    color: #FFF;
+    text-decoration: underline;
+}
+
 .text{
 	background: #0a8ea0;
 }
