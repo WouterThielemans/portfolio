@@ -58,10 +58,14 @@ img{
 
 /* CSS Document */
 header {
-    position: absolute;
+    height:7.5%;
     z-index: 9;
     width: 100%;
+    background-color: #fff;
+    position: fixed;
+    opacity: 0.97;
 }
+
 
 .toggle,
 [id^=drop] {
@@ -82,7 +86,7 @@ nav {
     display: initial;
     margin: 0;
     letter-spacing: 1px;
-    color: #fff;
+    color: #30c39e;
     font-weight: 600;
 }
 #logo a span {
@@ -101,6 +105,7 @@ nav:after {
 
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
+
 nav ul {
 	float: right;
 	padding:0;
@@ -118,14 +123,14 @@ nav ul li {
 
 /* Styling the links */
 nav a {
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 1px;
     padding-left: 0;
     padding-right: 0;
-	padding: 10px 0;
+	padding: 0px;
 }
 
 
@@ -540,7 +545,7 @@ h3.w3layouts_tittle.two {
 }
 .bar-grids h4 {
     font-size: 1.6em;
-    color: #ffffff;
+    color: #000;
     letter-spacing: 1px;
     margin-bottom: 1.4em;
     /* border-bottom: 1px dashed #ffffff; */
