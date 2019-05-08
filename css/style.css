@@ -601,6 +601,7 @@ h3.heading:after {
 }
 .service-grids {
     margin-top: 5em;
+    margin-left: 5em;
 }
 .w3-icon-grid1 h3 {
     text-transform: capitalize;
