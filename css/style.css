@@ -86,7 +86,7 @@ nav {
     display: initial;
     margin: 0;
     letter-spacing: 1px;
-    color: #30c39e;
+    color: #333;
     font-weight: 600;
 }
 #logo a span {
@@ -344,11 +344,13 @@ li > a:only-child:after { content: ''; }
 .popup {
     background: #fff;
     border-radius: 5px;
-    max-width: 500px;
+    max-width: 45%;
+    min-height: 40%;
     position: relative;
     margin: 8em auto;
 	padding: 3em 1em;
 }
+
 .popup p{
 	font-size: 15px;
 	color: #666;
@@ -383,7 +385,6 @@ li > a:only-child:after { content: ''; }
 .popup .close:hover {
   color: #30c39e;
 }
-
 /*-- //popup --*/
 
 /*-- banner --*/
@@ -611,6 +612,25 @@ h3.heading:after {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
+.w3-icon-grid1 h4 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.w3-icon-grid1 h4:hover {
+text-decoration: underline;
+}
+
+.w3-icon-grid1 h4 span {
+    color: #fff;
+    font-size: 35px;
+}
+
 .w3-icon-grid1 {
     position: relative;
 }
