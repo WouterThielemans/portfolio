@@ -3,6 +3,10 @@
 
 
 html {
+  scroll-behavior: smooth;
+}
+
+html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -788,4 +792,8 @@ ol{
 main{
     margin-left: 20%;
     margin-right: 20%;
+}
+
+h3{
+    font-size: 2rem;
 }
