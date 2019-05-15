@@ -161,7 +161,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #000;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -4977,9 +4977,9 @@ tbody.collapse.show {
 }
 
 .alert-primary {
-  color: #004085;
-  background-color: #cce5ff;
-  border-color: #b8daff;
+  color: #fff;
+  background-color: #0a8ea0;
+  border-color: #0a8ea0;
 }
 
 .alert-primary hr {
@@ -4987,7 +4987,7 @@ tbody.collapse.show {
 }
 
 .alert-primary .alert-link {
-  color: #002752;
+  color: #000;
 }
 
 .alert-secondary {
